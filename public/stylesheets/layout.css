@@ -6,20 +6,20 @@
     box-sizing: border-box;
 }
 
+.header_nav{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #14191C, #37283B);
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+}
+
 .container{
     width: 90%;
     max-width: 1200px;
     margin: auto;
-}
-
-.header_nav{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to right, #14191C, #37283B);
-    position: relative;
-    overflow: hidden;
 }
 
 .header_nav .container{
@@ -35,7 +35,18 @@
     font-size: 40px;
 }
 
-.header_nav nav a{
+.header_nav .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header_nav .nav_link{
+    position: relative;
+    padding-left: 30px;
+}
+
+.header_nav a{
     color: #EBB9AE;
     text-decoration: none;
     margin-right: 10px;
