@@ -276,3 +276,50 @@
     width: 150px;
 }
 
+.contact_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact_container img{
+    width: 500px;
+}
+
+.contact_form{
+    width: 500px;
+}
+
+.contact_form h2{
+    font-size: 45px;
+    color: #37283B;
+    font-style: italic;
+}
+
+.contact_form .form-label{ 
+    margin-top: 10px!important;
+}
+
+.contact_form .col-form-label{
+    margin-top: 5px!important;
+}
+
+.contact_form .btn-primary{
+    background-color: #37283B;
+    color: #E1B1B2;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.contact_form .btn-primary:hover{
+    background-color: #9F5F7F;
+    color: #37283B;
+    border-color: #5F3557;
+    border-width: 5px;
+}
+
