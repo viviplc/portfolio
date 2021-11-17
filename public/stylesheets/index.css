@@ -314,6 +314,8 @@
     color: #E1B1B2;
     margin-top: 20px;
     width: 500px;
+    border-color: #37283B;
+    border-width: 5px;
 }
 
 .contact_form .btn-primary:hover{
