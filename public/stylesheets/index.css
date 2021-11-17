@@ -92,7 +92,7 @@
     position: absolute;
     bottom: -50;
     
-    animation: bubbling 3s linear infinite ;
+    animation: bubbling 0.1s linear infinite ;
 }
 
 .bubble:nth-child(1){
