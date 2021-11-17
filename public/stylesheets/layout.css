@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header_nav{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #14191C, #37283B);
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header_nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.header_nav .navbar-brand{
+    color: #9F5F7F;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+.header_nav .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header_nav .nav_link{
+    position: relative;
+    padding-left: 30px;
+}
+
+.header_nav a{
+    color: #EBB9AE;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer{
+    width: 100%;
+    margin: auto;
+}
+
+.main_footer{
+    background-color:  #5F3557;
+    padding: 0px;
+}
+
+.footer_banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer_banner h5{
+    color: #9F5F7F;
+}
+
+.footer_banner ul{
+    list-style-position: outside;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.footer_banner li{
+    list-style-type: none;    
+}
+
+.footer_banner a{
+    color: #C2849F;
+    text-decoration: none;
+}
+
+.social_media_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 20px;
+}
+
+.social_media_links img{
+    width: 25px;
+    height: 26px;
+}
+
+.info_footer{
+    background-color: #C2849F;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px;
+}
+
+.footer_copyright p{
+    color: #37283B;
+    margin-left: 30px;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.info_footer a{
+    color: #37283B;
+    margin-right: 30px;
+    font-size: 10px;
+}
+
+.main_section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #14191C, #37283B);
+    position: relative;
+    overflow: hidden;
+}

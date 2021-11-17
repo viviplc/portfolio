@@ -1,0 +1,57 @@
+<link rel="stylesheet" href='/stylesheets/projects.css'>
+
+<div class="project_information_view">
+    <div class="project_info_container">
+        <h1>{{project_title}}</h1>
+        <div class="project_description_container">
+            <div class="project_slider_container">
+                <!-- slider gallery based on: https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <img src="/images/projects/Tutramite/ver1.svg">
+                    </div>
+                    <div class="mySlides">
+                        <img src="/images/projects/Tutramite/ver2.svg">
+                    </div>
+                    <div class="mySlides">
+                        <img src="/images/projects/Tutramite/ver3.svg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <div class="dots" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+            <div class="project_description_info">
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed
+                        diam voluptua. At vero eos et accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed
+                        diam voluptua. At vero eos et accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata.
+                    </li>
+                </ul>
+                <button class="more_project_button"
+                    onclick="window.location='https://mintic.gov.co/portal/inicio/';">
+                    <span>more</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/javascripts/project_slide.js"></script>

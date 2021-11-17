@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header_nav_about{
+    width: 100%;
+    top: 60px;
+    left: 0;
+    background: linear-gradient(to top, #9F5F7F, #C2849F, #9F5F7F);
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.header_nav_about .container_about{
+    width: 15%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.header_nav_about .nav_links_about{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav_link_about a{
+    color: #37283B;
+
+    text-decoration: none;
+}
+
+.nav_link_about a:hover, .nav_link_about a:active{
+    border-bottom:4px solid #37283B;
+}
+
+.about_concent_container .about_studies_container{
+    margin-top: 100px;
+    background: linear-gradient(to top, #C5C5C5, #fff);
+    height: auto;
+}
+
+.about_concent_container .div_img_about{
+    width: 100%;
+}
+
+.div_img_about img{
+    width: 100%;
+}
+
+.about_concent_container h1{
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: #37283B;
+}
+
+.studies_div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.studies_div .study{
+    background:rgba(194,132,159,0.2);
+    width: 49%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.study_img{
+    margin: 10px;
+}
+
+.study_info{
+    width: 50%;
+}
+
+.study_img img {
+    width: 180px;   
+}
+
+.study_info h3{
+    color: #37283B;
+    font-style: italic;
+    font-size: 23px;
+}
+
+.study_info .h4_styled{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.study_info h4{
+    color: #5F3557;
+    font-size: 18px;
+}
+
+.study_info h5{
+    color: #9F5F7F;
+    font-size: 16px;
+}
+
+.button_more{
+    width: 60%;
+    margin-left: 40%;
+	height: 40px;
+	background: #5F3557;
+	color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: relative;
+	overflow: hidden;
+}
+
+.button_more span{
+    position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+.button_more::after{
+    content: "";
+	width: 100%;
+	height: 300px;
+	background: #C2849F;
+	position: absolute;
+	z-index: 1;
+	top: -300px;
+	left: 0;
+	transition: .7s ease-in-out all;
+	border-radius: 0px 0px 300px 300px;
+}
+
+.button_more:hover::after{
+    top: 0;
+}
+
+.about_jobs_container{
+    background: linear-gradient(to top, #fff, #C5C5C5);
+}
+
+.job_buttons_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.job_button_container{
+    animation: movement 0.5s linear infinite;
+}
+
+@keyframes movement{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.job_button{
+    background: none;
+    border:none;
+    width: 10%;
+}
+
+.job_button img{
+    width: 150px;
+}
+
+#job_intrasoft{
+    display: block;
+}
+
+#job_datacenter , #job_techmahindra, #job_blackboard{
+    display: none;
+}
+
+.job_info_container{
+    width: 100%;
+    height: 425px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.job-content_container{
+    margin: 30px;
+    background: rgba(194,132,159,0.2);
+    padding: 80px;
+    padding-bottom: 30px;
+    width: 90%;
+}
+
+.job_info_container .job_description{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.job_main h4{
+    font-style: italic;
+    margin-bottom: 30px ;
+    font-size: 35px;
+    color: #5F3557;
+}
+
+.job_main h5{
+    font-weight: bold;
+    font-size: 20px;
+    color: #9F5F7F;
+}
+
+.job_sup{
+    text-align: right;
+    padding-top: 65px;
+}
+
+.job_sup h5{
+    color: #9F5F7F;
+}
+
+.job_sup h6{
+    color: #9F5F7Fed;
+}
+
+.job_functions{
+    margin-top: 40px;
+}
+
+.job_functions .function-item{
+    list-style-image: url("/images/about/bullet.svg");
+}
+
+
+
+

@@ -2,9 +2,105 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="icon" href="/images/main/icon.svg">
+    <!--Morph bootstrap theme from https://bootswatch.com/-->
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+    <link rel="stylesheet" href='/stylesheets/layout.css'>
+    <link rel="stylesheet" href='/stylesheets/index.css'>
   </head>
   <body>
+    <header>
+      <div class="header_nav">
+        <div class="container">
+          <a class="navbar-brand" href="/">Viviana Leyva</a>
+          <nav>
+            <div class="nav-links">
+              <div class="nav_link">
+                <a href="/aboutme">About me</a>
+              </div>
+              <div class="nav_link">
+                <a href="/Projects">Projects</a>
+              </div>
+              <div class="nav_link">
+                <a href="/contact">Contact me</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
     {{{body}}}
+
+
+    <footer class="footer">
+      <div class="main_footer">
+        <div class="footer_banner">
+          <div class="footer_contact">
+            <h5>Contact me!</h5>
+            <ul>
+              <li>
+                Email:
+                <a href="mailto:vivi.plc95@hotmail.com">vivi.plc95@hotmail.com</a>
+              </li>
+              <li>
+                Instagram:
+                <a href="https://www.instagram.com/vivi.plc95/">vivi.plc95</a>
+              </li>
+            </ul>
+            <div class="social_media_links">
+              <div>
+                <a href="https://github.com/viviplc">
+                  <img src="/images/main/github.svg" alt="Github link">
+                </a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/vivi.plc95/">
+                  <img src="/images/main/instagram.svg" alt="Instagram link">
+                </a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/vivianaleyvacif/">
+                  <img src="/images/main/linkedin.svg" alt="Linkedin link">
+                </a>
+              </div>
+              <div>
+                <a href="https://www.behance.net/vivianaleyvac1">
+                  <img src="/images/main/behance.svg" alt="Behance link">
+                </a>
+              </div>
+              <div>
+                <a href="mailto:vivi.plc95@hotmail.com">
+                  <img src="/images/main/outlook.svg" alt="Outlook link">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_sitemap">
+            <h5>Site Map</h5>
+            <ul>
+              <li>
+                <a href="/aboutme">About me</a>
+              </li>
+              <li>
+                <a href="/projects">Projects</a>
+              </li>
+              <li>
+                <a href="/contact">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="info_footer">
+        <div class="footer_copyright">
+          <p><small>© 2021 Viviana Paola Leyva Cifuentes</small></p>
+        </div>
+        <div>
+          <a href="#">Web Site Source Code</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
