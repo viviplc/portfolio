@@ -54,6 +54,11 @@
   height: 100%;
 }
 
+.project_button:hover{
+    background-color: rgba(194,132,159,0.5);
+    color: #5F3557;
+}
+
 /*project child views*/
 
 .project_information_view {
