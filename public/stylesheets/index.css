@@ -211,8 +211,7 @@
 }
 
 .info_aboutme p mark{
-    border-radius: 15%;
-    background: #C2849F;
+    background: rgba(194,132,159,0.4);;
     color: #5F3557;
     font-size: 20px;
 }
