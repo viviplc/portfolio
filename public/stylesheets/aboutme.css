@@ -41,7 +41,7 @@
 
 .about_concent_container .about_studies_container{
     margin-top: 100px;
-    background: linear-gradient(to top, #E1B1B2, #fff);
+    background: linear-gradient(to top, #C5C5C5, #fff);
     height: auto;
 }
 
@@ -75,7 +75,8 @@
 .studies_div .study{
     background:rgba(194,132,159,0.2);
     width: 49%;
-    height: 240px;
+    height: auto;
+    padding: 20px;
     margin: auto;
     margin-bottom: 30px;
     display: flex;
@@ -84,7 +85,7 @@
 }
 
 .study_img{
-    margin: 20px;
+    margin: 10px;
 }
 
 .study_info{
@@ -92,18 +93,18 @@
 }
 
 .study_img img {
-    width: 200px;   
+    width: 180px;   
 }
 
 .study_info h3{
     color: #37283B;
     font-style: italic;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .study_info .h4_styled{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .study_info h4{
@@ -113,7 +114,7 @@
 
 .study_info h5{
     color: #9F5F7F;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .button_more{
@@ -155,7 +156,7 @@
 }
 
 .about_jobs_container{
-    background: linear-gradient(to top, #fff, #E1B1B2);
+    background: linear-gradient(to top, #fff, #C5C5C5);
 }
 
 .job_buttons_container{
@@ -165,6 +166,22 @@
     align-items: center;
     max-width: 1200px;
     margin: auto;
+}
+
+.job_button_container{
+    animation: movement 0.5s linear infinite;
+}
+
+@keyframes movement{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .job_button{

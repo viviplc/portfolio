@@ -193,7 +193,7 @@
 }
 
 .info_aboutme {
-    background: linear-gradient(to top, #E1B1B2, #fff);
+    background: linear-gradient(to top, #C5C5C5, #fff);
     padding: 50px;
 }
 
@@ -276,6 +276,11 @@
     width: 150px;
 }
 
+.contact_form_section{
+    background: linear-gradient(to top, #C5C5C5, #fff);
+    padding-bottom: 40px;
+}
+
 .contact_container{
     display: flex;
     justify-content: space-between;
@@ -284,7 +289,6 @@
     max-width: 1200px;
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .contact_container img{
