@@ -5,10 +5,10 @@
         <nav>
             <div class="nav_links_about">
                 <div class="nav_link_about">
-                    <a href="/aboutme">Studies</a>
+                    <a href="#studies_section">Studies</a>
                 </div>
                 <div class="nav_link_about">
-                    <a href="/Projects">Jobs</a>
+                    <a href="#jobs_section">Jobs</a>
                 </div>
             </div>
         </nav>
@@ -16,7 +16,7 @@
 </div>
 
 <div class="about_concent_container">
-    <div class="about_studies_container">
+    <div id="studies_section" class="about_studies_container">
         <h1>My Studies</h1>
         <div class="studies_div">
             <div class="study">
@@ -30,7 +30,8 @@
                     <h5>Bogotá, Colombia</h5>
                     <h5>2018</h5>
                     <!--button behavior based on: https://www.youtube.com/watch?v=c-4wFMGFuCg&ab_channel=FalconMasters-->
-                    <button class="button_more" onclick="window.location='https://www.javeriana.edu.co/info-prg/carrera-ingenieria-electronica';"><span>more</span></button>
+                    <button class="button_more"
+                        onclick="window.location='https://www.javeriana.edu.co/info-prg/carrera-ingenieria-electronica';"><span>more</span></button>
                 </div>
             </div>
             <div class="study">
@@ -43,7 +44,8 @@
                     <h4>Course</h4>
                     <h5>Bogotá, Colombia</h5>
                     <h5>2019</h5>
-                    <button class="button_more" onclick="window.location='https://educacionvirtual.javeriana.edu.co/anal%C3%ADtica-de-datos';"><span>more</span></button>
+                    <button class="button_more"
+                        onclick="window.location='https://educacionvirtual.javeriana.edu.co/anal%C3%ADtica-de-datos';"><span>more</span></button>
                 </div>
             </div>
             <div class="study">
@@ -56,7 +58,8 @@
                     <h4>Course</h4>
                     <h5>Bogotá, Colombia</h5>
                     <h5>2020</h5>
-                    <button class="button_more" onclick="window.location='https://platzi.com/cursos/html-practico/';"><span>more</span></button>
+                    <button class="button_more"
+                        onclick="window.location='https://platzi.com/cursos/html-practico/';"><span>more</span></button>
                 </div>
             </div>
             <div class="study">
@@ -69,7 +72,8 @@
                     <h4>English Certificate</h4>
                     <h5>Bogotá, Colombia</h5>
                     <h5>2021</h5>
-                    <button class="button_more" onclick="window.location='https://www.ielts.ca/?gclid=Cj0KCQiAys2MBhDOARIsAFf1D1e73LqyqM1xqmg902AVFM0UYVM0pLoIoK8wXYW-eG9pLObEdSdFo3QaAhpfEALw_wcB';"><span>more</span></button>
+                    <button class="button_more"
+                        onclick="window.location='https://www.ielts.ca/?gclid=Cj0KCQiAys2MBhDOARIsAFf1D1e73LqyqM1xqmg902AVFM0UYVM0pLoIoK8wXYW-eG9pLObEdSdFo3QaAhpfEALw_wcB';"><span>more</span></button>
                 </div>
             </div>
             <div class="study">
@@ -82,7 +86,8 @@
                     <h4>Certificate</h4>
                     <h5>Bogotá, Colombia</h5>
                     <h5>2021</h5>
-                    <button class="button_more" onclick="window.location='https://academy.pega.com/mission/system-architect/v1';"><span>more</span></button>
+                    <button class="button_more"
+                        onclick="window.location='https://academy.pega.com/mission/system-architect/v1';"><span>more</span></button>
                 </div>
             </div>
             <div class="study">
@@ -95,7 +100,8 @@
                     <h4>Post Graduate Certificate</h4>
                     <h5>Waterloo, Canada</h5>
                     <h5>2021 -in progress-</h5>
-                    <button class="button_more" onclick="window.location='https://www.conestogac.on.ca/fulltime/mobile-solutions-development';"><span>more</span></button>
+                    <button class="button_more"
+                        onclick="window.location='https://www.conestogac.on.ca/fulltime/mobile-solutions-development';"><span>more</span></button>
                 </div>
             </div>
         </div>
@@ -103,7 +109,108 @@
     <div class="div_img_about">
         <img src="/images/about/cherry.svg" alt="cherry devider">
     </div>
-    <div class="about_jobs_container">
+    <div id="jobs_section" class="about_jobs_container">
+        <h1>My Jobs</h1>
+        <div class="job_buttons_container">
+            <!--show and hide behavior based on= https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp-->
+            <div>
+                <button class="job_button" onclick="showIntrasoft()">
+                    <img src="/images/about/instrasoft.svg" alt="Job button">
+                </button>
+            </div>
+            <div>
+                <button class="job_button" onclick="showDatacenter()">
+                    <img src="/images/about/datacenter.svg" alt="Job button">
+                </button>
+            </div>
+            <div>
+                <button class="job_button" onclick="showTechMahindra()">
+                    <img src="/images/about/techmahindra.svg" alt="Job button">
+                </button>
+            </div>
+            <div>
+                <button class="job_button" onclick="showBlackboard()">
+                    <img src="/images/about/blackboard.svg" alt="Job button">
+                </button>
+            </div>
+        </div>
+        <div class="job_info_container">
+            <div class="job-content_container" id="job_intrasoft">
+                <div class="job_description">
+                    <div class="job_main">
+                        <h4>Intrasoft</h4>
+                        <h5>Jan 2018 - Software Engineer</h5>
+                        <h5>Mar 2019 - Project Manager</h5>
+                    </div>
+                    <div class="job_sup">
+                        <h5>Jan 2018 - Jun 2019</h5>
+                        <h6>Bogotá, Colombia</h6>
+                    </div>
+                </div>
+                <div class="job_functions">
+                    <ul>
+                        <li class="function-item">I used to develop a fintech app, we started creating the full concept of the app
+                        I learn to hear the customer, create user stories, sketches and wireframes. 
+                        </li>
+                        <li class="function-item">here I learned the basics of mobile development for android and iOS, as well as 
+                        some AWS services.
+                        </li>
+                        <li class="function-item"> I learn so much working on Intrasoft, that my boss promote me to Project Manager
+                        Where I learned to lead a team, made up of designers, backend and frontend developers. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="job-content_container" id="job_datacenter">
+                <div class="job_description">
+                    <div class="job_main">
+                        <h4>Datacenter</h4>
+                        <h5>Development Engineer</h5>
+                    </div>
+                    <div class="job_sup"> 
+                        <h5>Sep 2019 - Oct 2020</h5>
+                        <h6>Bogotá, Colombia</h6>
+                    </div>
+                </div>
+                <div class="job_functions">
+                    <!--bullets-->
+                </div>
+            </div>
+            <div class="job-content_container" id="job_techmahindra">
+                <div class="job_description">
+                    <div class="job_main">
+                        <h4>Tech Mahindra</h4>
+                        <h5>Software Engineer</h5>
+                    </div>
+                    <div class="job_sup">
+                        <h5>Oct 2020 - Mar 2021</h5>
+                        <h6>Bogotá, Colombia</h6>
+                    </div>
+                </div>
+                <div class="job_functions">
+                    <!--bullets-->
+                </div>
+            </div>
+            <div class="job-content_container" id="job_blackboard">
+                <div class="job_description">
+                    <div class="job_main">
+                        <h4>Blackboard</h4>
+                        <h5>Software Engineer</h5>
+                    </div>
+                    <div class="job_sup">
+                        <h5>Apr 2021 - Aug 2021</h5>
+                        <h6>Bogotá, Colombia</h6>
+                    </div>
+                </div>
+                <div class="job_functions">
+                    <!--bullets-->
+                </div>
+            </div>
 
+        </div>
     </div>
+
+
 </div>
+
+<script src="/javascripts/about_jobs.js"></script>

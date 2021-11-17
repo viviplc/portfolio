@@ -53,13 +53,13 @@
     width: 100%;
 }
 
-.about_studies_container h1{
-    color: #37283B;
+.about_concent_container h1{
     font-style: italic;
     font-weight: bold;
     padding-top: 30px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-bottom: 30px;
+    color: #37283B;
 }
 
 .studies_div{
@@ -153,4 +153,95 @@
 .button_more:hover::after{
     top: 0;
 }
+
+.about_jobs_container{
+    background: linear-gradient(to top, #fff, #E1B1B2);
+}
+
+.job_buttons_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.job_button{
+    background: none;
+    border:none;
+    width: 10%;
+}
+
+.job_button img{
+    width: 150px;
+}
+
+#job_intrasoft{
+    display: block;
+}
+
+#job_datacenter , #job_techmahindra, #job_blackboard{
+    display: none;
+}
+
+.job_info_container{
+    width: 100%;
+    height: 425px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.job-content_container{
+    margin: 30px;
+    background: rgba(194,132,159,0.2);
+    padding: 80px;
+    padding-bottom: 30px;
+    width: 90%;
+}
+
+.job_info_container .job_description{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.job_main h4{
+    font-style: italic;
+    margin-bottom: 30px ;
+    font-size: 35px;
+    color: #5F3557;
+}
+
+.job_main h5{
+    font-weight: bold;
+    font-size: 20px;
+    color: #9F5F7F;
+}
+
+.job_sup{
+    text-align: right;
+    padding-top: 65px;
+}
+
+.job_sup h5{
+    color: #9F5F7F;
+}
+
+.job_sup h6{
+    color: #9F5F7Fed;
+}
+
+.job_functions{
+    margin-top: 40px;
+}
+
+.job_functions .function-item{
+    list-style-image: url("/images/about/bullet.svg");
+}
+
+
+
 
