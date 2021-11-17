@@ -19,7 +19,7 @@ router.get('/lopawlty', function(req, res, next) {
 });
 
 router.get('/tuTramite', function(req, res, next) {
-  res.render('projects/tuTramite', { title: 'Viviana Leyva tuTramite project' });
+  res.render('projects/tuTramite', { title: 'Viviana Leyva tuTramite project', project_title: 'TuTramite' });
 });
 
 module.exports = router;
